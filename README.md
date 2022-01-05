@@ -1,24 +1,14 @@
-# vuex
+<h1> Shop </h1>
+---
+<p></p>
+In this online shop user can get products by category, filter by product name, price and rating.
+<br>
+Every product can be added to cart
 
-## Project setup
-```
-npm install
-```
+Product list : https://fakestoreapi.com
+<br>
+All products are stored in Vuex store
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![](./src/assets/screenshot.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](./src/assets/screen-product.png)

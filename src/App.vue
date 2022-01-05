@@ -37,7 +37,6 @@ export default defineComponent({
     ...mapState("products", ["products"]),
     ...mapState("cart", ["cart"]),
   },
-  methods: {},
   mounted() {
     this.$store.dispatch("products/getProducts");
     this.$store.dispatch("categories/getCategories");
@@ -72,7 +71,7 @@ export default defineComponent({
 
 .app__nav_link {
   font-family: "Roboto", sans-serif;
-  font-size: 32px;
+  font-size: 20px;
   padding: 12px 24px;
   text-decoration: none;
   color: $col_blk5;
